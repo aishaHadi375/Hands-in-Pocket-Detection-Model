@@ -8,15 +8,15 @@ This project detects human poses in uploaded images using MediaPipe Pose and det
 
 It performs the following steps:
 
-Accepts image upload (via Google Colab).
+1. Accepts image upload (via Google Colab).
 
-Runs pose estimation using MediaPipe.
+2. Runs pose estimation using MediaPipe.
 
-Draws landmarks and skeleton connections on the image.
+3. Draws landmarks and skeleton connections on the image.
 
-Analyzes wrist and hip positions relative to shoulder width.
+4. Analyzes wrist and hip positions relative to shoulder width.
 
-Detects whether one or both hands are likely inside pockets.
+5. Detects whether one or both hands are likely inside pockets.
 
 **Requirements**
 
@@ -28,13 +28,13 @@ Google Colab (recommended)
 
 **Workflow**
 
-Upload images → The script loads each file into memory.
+1. Upload images → The script loads each file into memory.
 
-Pose detection → MediaPipe estimates landmarks (wrists, hips, shoulders).
+2. Pose detection → MediaPipe estimates landmarks (wrists, hips, shoulders).
 
-Annotation → Landmarks and skeleton are drawn on the uploaded image.
+3. Annotation → Landmarks and skeleton are drawn on the uploaded image.
 
-Pocket detection logic →
+4. Pocket detection logic →
 
 Shoulder width is calculated.
 
