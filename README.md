@@ -44,9 +44,9 @@ If a wrist falls inside the zone → it’s flagged as “hand in pocket.”
 
 **Output**
 
-Annotated Image: The uploaded photo is displayed with detected pose landmarks.
+1. **Annotated Image:** The uploaded photo is displayed with detected pose landmarks.
 
-Text Detection Results:
+2. **Text Detection Results:**
 
 "Possible hands in pockets detected."
 
@@ -58,18 +58,18 @@ Text Detection Results:
 
 **Example Use Cases**
 
-Human activity recognition
+1. Human activity recognition
 
-Security monitoring
+2. Security monitoring
 
-Sports or posture analysis
+3. Sports or posture analysis
 
-Fashion/retail applications (e.g., style analysis)
+4. Fashion/retail applications (e.g., style analysis)
 
 **Notes**
 
-Works best on full-body images where hips and wrists are visible.
+1. Works best on full-body images where hips and wrists are visible.
 
-May give false positives if hands are near hips but not actually in pockets.
+2. May give false positives if hands are near hips but not actually in pockets.
 
-Thresholds are relative to shoulder width and may need tuning for specific datasets.
+3. Thresholds are relative to shoulder width and may need tuning for specific datasets.
