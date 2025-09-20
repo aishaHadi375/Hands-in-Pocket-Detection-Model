@@ -1,6 +1,6 @@
 
 
-🧾 **#Hand-in-Pocket Detection using MediaPipe**
+🧾 **Hand-in-Pocket Detection using MediaPipe**
 
 **Overview**
 
@@ -26,7 +26,7 @@ Google Colab (recommended)
 
 **Dependencies:** OpenCV, MediaPipe, NumPy, Matplotlib
 
-**# Workflow**
+**Workflow**
 
 Upload images → The script loads each file into memory.
 
@@ -42,7 +42,7 @@ A “pocket zone” is defined around each hip.
 
 If a wrist falls inside the zone → it’s flagged as “hand in pocket.”
 
-**# Output**
+**Output**
 
 Annotated Image: The uploaded photo is displayed with detected pose landmarks.
 
@@ -56,7 +56,7 @@ Text Detection Results:
 
 "No hands in pockets detected."
 
-**# Example Use Cases**
+**Example Use Cases**
 
 Human activity recognition
 
@@ -66,7 +66,7 @@ Sports or posture analysis
 
 Fashion/retail applications (e.g., style analysis)
 
-**# Notes**
+**Notes**
 
 Works best on full-body images where hips and wrists are visible.
 
