@@ -1,6 +1,6 @@
 
 
-🧾 **# Hand-in-Pocket Detection using MediaPipe**
+🧾 **#Hand-in-Pocket Detection using MediaPipe**
 
 **Overview**
 
